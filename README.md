@@ -49,6 +49,8 @@ A curated list of awesome WebRTC modules and resources. Inspired by [awesome-pyt
 
 ## Demos and samples
 
+* [CUBE SLAM](https://www.cubeslam.com/) - getUserMedia, RTCPeerConnection, RTCDataChannel, WebGL, Web Audio and CSS3. [cheats](http://www.cubeslam.com/cheats.html)
+* [WebRTC Experiments](https://www.webrtc-experiment.com/) - A very long list of WebRTC demos and libraries.
 * [List of WebRTC demos and apps](https://docs.google.com/document/d/1hNK15_cNx3CpYsro2TKwEbdFxLv5WFe8djGHdFeZBks/edit)
 * [Simplest possible getUserMedia demo](http://simpl.info/getusermedia/)
 * RTCPeerConnection 'on one page', i.e. without signaling: <http://simpl.info/rtcpeerconnection/>
