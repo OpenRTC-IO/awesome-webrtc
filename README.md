@@ -168,10 +168,10 @@ A curated list of awesome WebRTC modules and resources. Inspired by [awesome-pyt
 
 ### `getUserMedia`
 
-* ASCII: <http://idevelop.github.com/ascii-camera>
+* [ASCII camera](http://idevelop.github.com/ascii-camera) - getUserMedia + Canvas + ASCII conversion
 * Movement tracking slide page controller: <http://www.slideshare.net/tsahil/kranky-geek-webrtc-show-webrtc-in-the-real-world>
 * Xylophone: <http://soundstep.com/blog/experiments/jsdetection/>
-* Photobooth with filters: <http://webcamtoy.com/>
+* [Webcam Toy photobooth app](http://webcamtoy.com/) - Photobooth with filters, getUserMedia + WebGL
 * SVG filters: <https://rawgithub.com/SenorBlanco/moggy/master/filterbooth.html>
 * Face masking with WebGL: <https://auduno.github.io/clmtrackr/face_mask.html>
 * Face deformation with WebGL: <https://auduno.github.io/clmtrackr/examples/facedeform.html>
