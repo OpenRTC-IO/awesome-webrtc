@@ -50,17 +50,15 @@ A curated list of awesome WebRTC modules and resources. Inspired by [awesome-pyt
 ## Demos and samples
 
 * [CUBE SLAM](https://www.cubeslam.com/) - getUserMedia, RTCPeerConnection, RTCDataChannel, WebGL, Web Audio and CSS3. [cheats](http://www.cubeslam.com/cheats.html)
-* [WebRTC Experiments](https://www.webrtc-experiment.com/) - A very long list of WebRTC demos and libraries.
+* [WebRTC Experiments](https://www.webrtc-experiment.com/) - A very long list of WebRTC demos and libraries. Muaz Khan maintains a mighty assortment of experiments
 * [List of WebRTC demos and apps](https://docs.google.com/document/d/1hNK15_cNx3CpYsro2TKwEbdFxLv5WFe8djGHdFeZBks/edit)
 * [Simplest possible getUserMedia demo](http://simpl.info/getusermedia/)
-* RTCPeerConnection 'on one page', i.e. without signaling: <http://simpl.info/rtcpeerconnection/>
-* WebRTC video chat: <https://www.apprtc.net/>. [source code](https://github.com/webrtc/apprtc)
-* Simplest possible RTCDataChannel example:: <http://simpl.info/rtcdatachannel/>
-* Data channel file transfer: <http://webrtc.github.io/samples/src/content/datachannel/filetransfer/>
-* RTCPeerConnection signaling example: <http://www.w3.org/TR/webrtc/#simple-example>
-* Constraints: <https://simpl.info/getusermedia/constraints/>
+* [simpl.info RTCPeerConnection](http://simpl.info/rtcpeerconnection/) - RTCPeerConnection 'on one page', i.e. without signaling.
+* [AppRTC](https://www.apprtc.net/) - WebRTC video chat, [source code](https://github.com/webrtc/apprtc)
+* [simpl.info RTCDataChannel](http://simpl.info/rtcdatachannel/) - Simplest possible RTCDataChannel example.
+* [WebRTC samples Transfer a file](http://webrtc.github.io/samples/src/content/datachannel/filetransfer/) - Data channel file transfer.
+* [simpl.info getUserMedia constraints](https://simpl.info/getusermedia/constraints/) - Constraints.
 * [Screen capture](https://html5-demos.appspot.com/static/getusermedia/screenshare.html)
-* Muaz Khan maintains a mighty assortment of experiments at <https://www.webrtc-experiment.com/>
 
 ## Tutorials
 
