@@ -62,18 +62,18 @@ A curated list of awesome WebRTC modules and resources. Inspired by [awesome-pyt
 
 ## Tutorials
 
-* Getting Started With WebRTC: <http://www.html5rocks.com/en/tutorials/webrtc/basics/>
+* [Getting Started With WebRTC](http://www.html5rocks.com/en/tutorials/webrtc/basics/)
 * [WebRTC in the real world: STUN, TURN and signaling](http://www.html5rocks.com/en/tutorials/webrtc/infrastructure/)
-* [A practical guide to WebRTC](http://www.slideshare.net/vline/a-practical): presentation slides from vLine
-* Capturing audio and video in HTML5: <http://www.html5rocks.com/en/tutorials/getusermedia/intro/>
-* Excellent series of articles by Louis Stowasser and Robert Nyman: <https://hacks.mozilla.org/category/webrtc/>
-* Justin Uberti at Google I/O 2012: <https://www.youtube.com/watch?v=E8C8ouiXHHk>
-* Cullen Jennings video: HTML5 WebRTC: <http://vimeo.com/47682405>
-* [WebRTC Fundamentals](http://bit.ly/learnwebrtc): online course.
+* [A practical guide to WebRTC](http://www.slideshare.net/vline/a-practical) - presentation slides from vLine
+* [Capturing audio and video in HTML5](http://www.html5rocks.com/en/tutorials/getusermedia/intro/)
+* [Excellent series of articles by Louis Stowasser and Robert Nyman](https://hacks.mozilla.org/category/webrtc/)
+* [Justin Uberti at Google I/O 2012](https://www.youtube.com/watch?v=E8C8ouiXHHk)
+* [Cullen Jennings video: HTML5 WebRTC](http://vimeo.com/47682405)
+* [WebRTC Fundamentals](http://bit.ly/learnwebrtc) - online course.
 
 ## Codelab
 
-* Walkthrough and code for setting up a server and client for video chat: <https://bitbucket.org/webrtc/codelab>
+* [Walkthrough and code for setting up a server and client for video chat](https://bitbucket.org/webrtc/codelab)
 * [Google I/O 2014 file sharing codelab](http://io2014codelabs.appspot.com/static/codelabs/webrtc-file-sharing/#1)
 
 ## Books
