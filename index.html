@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Awesome-webrtc by OpenRTC-IO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Awesome-webrtc</h1>
+      <h2 class="project-tagline">A curated list of awesome WebRTC modules and resources.</h2>
+      <a href="https://github.com/OpenRTC-IO/awesome-webrtc" class="btn">View on GitHub</a>
+      <a href="https://github.com/OpenRTC-IO/awesome-webrtc/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/OpenRTC-IO/awesome-webrtc/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="awesome-webrtc-" class="anchor" href="#awesome-webrtc-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Awesome WebRTC <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome"></a>
+</h1>
+
+<p><a href="https://travis-ci.org/OpenRTC-IO/awesome-webrtc"><img src="https://travis-ci.org/OpenRTC-IO/awesome-webrtc.svg" alt="Build Status"></a></p>
+
+<p>A curated list of awesome WebRTC modules and resources. Inspired by <a href="https://github.com/vinta/awesome-python">awesome-python</a>.</p>
+
+<ul>
+<li>
+<a href="#awesome-webrtc">Awesome WebRTC</a>
+
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#demos-and-samples">Demos and samples</a></li>
+<li><a href="#tutorials">Tutorials</a></li>
+<li><a href="#books">Books</a></li>
+<li><a href="#developer-tools-and-resources">Developer tools and resources</a></li>
+<li><a href="#standards-and-protocols">Standards and protocols</a></li>
+<li><a href="#native-apis">Native APIs</a></li>
+<li><a href="#discussion-blogs-and-articles">Discussion, blogs and articles</a></li>
+<li><a href="#browser-support">Browser support</a></li>
+<li>
+<a href="#javaScript-apps-and-frameworks">JavaScript apps and frameworks</a>
+
+<ul>
+<li><a href="#video-chat">Video chat</a></li>
+<li><a href="#peer-to-peer-data">Peer-to-peer data</a></li>
+<li><a href="#voip-pstn">VoIP/PSTN</a></li>
+<li><a href="#face-head-tracking">Face/head tracking</a></li>
+<li><a href="#node">Node</a></li>
+</ul>
+</li>
+<li><a href="#services">Services</a></li>
+<li>
+<a href="#applications">Applications</a>
+
+<ul>
+<li><a href="#getusermedia">getUserMedia</a></li>
+<li><a href="#screen-capture">Screen capture</a></li>
+<li><a href="#web-audio-integration">Web Audio integration</a></li>
+<li><a href="#recording">Recording</a></li>
+<li><a href="#chat">Chat</a></li>
+<li><a href="#games">Games</a></li>
+<li><a href="#telehealth">Telehealth</a></li>
+<li><a href="#phone">Phone</a></li>
+<li><a href="#file-sharing-and-p2p">File sharing and P2P</a></li>
+<li><a href="#others">Others</a></li>
+<li><a href="#alternatives-for-ie-and-safari">Alternatives for IE and Safari</a></li>
+</ul>
+</li>
+<li>
+<a href="#web-audio">Web Audio</a>
+
+<ul>
+<li><a href="#demos-and-samples">Demos and samples</a></li>
+<li><a href="#tutorials">Tutorials</a></li>
+<li><a href="#reference">Reference</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="overview" class="anchor" href="#overview" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Overview</h2>
+
+<ul>
+<li><a href="http://webrtc.org/">WebRTC official site</a></li>
+<li>2013 Google I/O presentation: <a href="https://www.youtube.com/watch?v=p2HzZkd2A40">video</a>, <a href="http://io13webrtc.appspot.com/">slide</a> - If you've never worked with WebRTC, we recommend you start with it. Get an overview of WebRTC.</li>
+</ul>
+
+<h2>
+<a id="tutorials" class="anchor" href="#tutorials" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tutorials</h2>
+
+<ul>
+<li><a href="http://www.html5rocks.com/en/tutorials/webrtc/basics/">Getting Started With WebRTC</a></li>
+<li><a href="http://www.html5rocks.com/en/tutorials/webrtc/infrastructure/">WebRTC in the real world: STUN, TURN and signaling</a></li>
+<li>
+<a href="http://www.slideshare.net/vline/a-practical">A practical guide to WebRTC</a> - presentation slides from vLine</li>
+<li><a href="http://www.html5rocks.com/en/tutorials/getusermedia/intro/">Capturing audio and video in HTML5</a></li>
+<li><a href="https://hacks.mozilla.org/category/webrtc/">Excellent series of articles by Louis Stowasser and Robert Nyman</a></li>
+<li><a href="https://www.youtube.com/watch?v=E8C8ouiXHHk">Justin Uberti at Google I/O 2012</a></li>
+<li><a href="http://vimeo.com/47682405">Cullen Jennings video: HTML5 WebRTC</a></li>
+<li>
+<a href="http://bit.ly/learnwebrtc">WebRTC Fundamentals</a> - online course.</li>
+</ul>
+
+<h2>
+<a id="demos-and-samples" class="anchor" href="#demos-and-samples" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Demos and samples</h2>
+
+<ul>
+<li><a href="http://github.com/webrtc/samples">WebRTC JavaScript code samples</a></li>
+<li><a href="http://webrtc.github.io/samples">Live demos of the samples</a></li>
+<li>
+<a href="https://docs.google.com/document/d/1hNK15_cNx3CpYsro2TKwEbdFxLv5WFe8djGHdFeZBks/edit">List of WebRTC demos and apps</a> - incomplete and slightly out of date.</li>
+<li>WebRTC video chat: <a href="https://www.apprtc.net/">appr.tc</a>, <a href="http://github.com/webrtc/apprtc">source</a>
+</li>
+<li><a href="https://simpl.info/gum">Simple getUserMedia demo</a></li>
+<li>
+<a href="https://www.simpl.info/rtcpeerconnection">RTCPeerConnection demo</a> - RTCPeerConnection ‘on one page’, i.e. without signaling.</li>
+<li><a href="https://simpl.info/rtcdatachannel">Simple RTCDataChannel example</a></li>
+<li><a href="http://webrtc.github.io/samples/src/content/datachannel/filetransfer">Data channel file transfer</a></li>
+<li><a href="http://w3.org/TR/webrtc/#simple-example">RTCPeerConnection signaling example</a></li>
+<li><a href="https://html5-demos.appspot.com/static/getusermedia/screenshare.html">Screen capture</a></li>
+<li>
+<a href="https://www.webrtc-experiment.com/">WebRTC Experiments</a> - Muaz Khan maintains a mighty assortment of experiments.</li>
+<li><a href="https://bitbucket.org/webrtc/codelab">Walkthrough and code for setting up a server and client for video chat</a></li>
+<li><a href="http://io2014codelabs.appspot.com/static/codelabs/webrtc-file-sharing/#1">Google I/O 2014 file sharing codelab</a></li>
+</ul>
+
+<h2>
+<a id="books" class="anchor" href="#books" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Books</h2>
+
+<ul>
+<li><a href="http://webrtcbook.com/">WebRTCBook</a></li>
+<li><a href="http://www.packtpub.com/getting-started-with-webrtc/book">Getting Started with WebRTC</a></li>
+<li><a href="http://bloggeek.me/book-webrtc-salvatore-simon/">Real-Time Communication with WebRTC</a></li>
+</ul>
+
+<h2>
+<a id="developer-tools-and-resources" class="anchor" href="#developer-tools-and-resources" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Developer tools and resources</h2>
+
+<ul>
+<li>
+<a href="https://github.com/webrtc/adapter">adapter.js</a> - shim maintained by Google to cope with API changes and platform differences.</li>
+<li>WebRTC Troubleshooter: <a href="https://test.webrtc.org/">web</a>, <a href="https://github.com/webrtc/testrtc">source</a>
+</li>
+<li>
+<a href="https://github.com/addyosmani/getUserMedia.js">getUserMedia.js</a> - polyfill from Addy Osmani</li>
+<li><a href="http://www.webrtc.org/web-apis/interop">Chrome-Firefox</a></li>
+<li><a href="http://crbug.com/new">File bugs</a></li>
+</ul>
+
+<h2>
+<a id="standards-and-protocols" class="anchor" href="#standards-and-protocols" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Standards and protocols</h2>
+
+<ul>
+<li><a href="http://www.w3.org/2011/04/webrtc/">Web Real-Time Communications Working Group</a></li>
+<li><a href="http://www.w3.org/TR/webrtc/">W3C Working Draft: WebRTC 1.0: Real-time Communication Between Browsers</a></li>
+<li><a href="http://www.w3.org/TR/mediacapture-streams/">Media Capture and Streams W3C Working Draft</a></li>
+<li>
+<a href="http://datatracker.ietf.org/wg/rtcweb/">IETF RTCWEB</a> - protocol specifications</li>
+</ul>
+
+<h2>
+<a id="native-apis" class="anchor" href="#native-apis" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Native APIs</h2>
+
+<ul>
+<li><a href="https://tech.appear.in/2015/05/25/Getting-started-with-WebRTC-on-iOS/">Getting started with WebRTC on iOS</a></li>
+<li><a href="https://tech.appear.in/2015/05/25/Introduction-to-WebRTC-on-Android/">Introduction to WebRTC on Android</a></li>
+<li>
+<a href="https://github.com/pristineio/webrtc-build-scripts">Build scripts from pristineio</a> - repo with links to how-to guides for Android and iOS</li>
+<li><a href="http://www.webrtc.org/native-code/native-apis">Native API documentation</a></li>
+<li><a href="https://github.com/common-tater/wkwebview-webrtc-shim">WebRTC shim for WKWebView</a></li>
+</ul>
+
+<h2>
+<a id="discussion-blogs-and-articles" class="anchor" href="#discussion-blogs-and-articles" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Discussion, blogs and articles</h2>
+
+<ul>
+<li><a href="https://groups.google.com/forum/?fromgroups#!forum/discuss-webrtc">discuss-webrtc</a></li>
+<li><a href="https://twitter.com/webrtc">@webrtc</a></li>
+<li><a href="https://plus.google.com/+WebRTCorg">+webrtc</a></li>
+<li><a href="http://stackoverflow.com/tags/webrtc">WebRTC on Stack Overflow</a></li>
+<li><a href="https://bloggeek.me/">Tsahi Levent-Levi</a></li>
+<li><a href="https://webrtcweekly.com/">WebRTC Weekly</a></li>
+<li><a href="https://webrtchacks.com/">WebRTCHacks</a></li>
+</ul>
+
+<h2>
+<a id="browser-support" class="anchor" href="#browser-support" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Browser support</h2>
+
+<ul>
+<li><a href="http://iswebrtcreadyyet.com/">iswebrtcreadyyet</a></li>
+</ul>
+
+<h2>
+<a id="javascript-apps-and-frameworks" class="anchor" href="#javascript-apps-and-frameworks" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>JavaScript apps and frameworks</h2>
+
+<ul>
+<li><a href="https://webrtchacks.com/whats-in-a-webrtc-javascript-library/">webrtcHacks articles</a></li>
+</ul>
+
+<h3>
+<a id="video-chat" class="anchor" href="#video-chat" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Video chat</h3>
+
+<ul>
+<li><a href="https://developer.appear.in/">appear.in</a></li>
+<li><a href="https://github.com/andyet/SimpleWebRTC">SimpleWebRTC</a></li>
+<li><a href="https://github.com/priologic/easyrtc">EasyRTC</a></li>
+<li><a href="http://lytespark.com/">LyteSpark</a></li>
+</ul>
+
+<h3>
+<a id="peer-to-peer-data" class="anchor" href="#peer-to-peer-data" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Peer-to-peer data</h3>
+
+<ul>
+<li>
+<a href="http://peerjs.com/">PeerJS</a> - data channel abstraction.</li>
+<li>
+<a href="https://github.com/peer5/sharefest">Sharefest</a> - share files via data channels.</li>
+<li>
+<a href="https://www.peer5.com/downloader">Peer5 Downloader</a> - P2P file download.</li>
+<li>ShareDrop: <a href="https://www.sharedrop.io/">web</a>, <a href="https://github.com/cowbell/sharedrop">source</a> - file sharing between devices on the same network.</li>
+</ul>
+
+<h3>
+<a id="voippstn" class="anchor" href="#voippstn" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>VoIP/PSTN</h3>
+
+<ul>
+<li>
+<a href="http://phono.com/">Phono</a> - Open source JavaScript phone API</li>
+<li>
+<a href="https://code.google.com/p/sipml5/">sipML5</a> - Open source JavaScript SIP client</li>
+<li>
+<a href="http://jssip.net/">JsSIP</a> - Open source JavaScript SIP library</li>
+<li>
+<a href="http://www.kamailio.org/w/">Kamailio</a> - Open source SIP proxy with WebSocket and SRTP support</li>
+<li><a href="http://www.freeswitch.org/">FreeSWITCH</a></li>
+</ul>
+
+<h3>
+<a id="facehead-tracking" class="anchor" href="#facehead-tracking" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Face/head tracking</h3>
+
+<ul>
+<li><a href="https://github.com/auduno/clmtrackr">clmtrackr</a></li>
+<li>headtrackr: <a href="http://simpl.info/headtrackr/">demo</a>, <a href="https://github.com/auduno/headtrackr/">source</a>
+</li>
+</ul>
+
+<h3>
+<a id="node" class="anchor" href="#node" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Node</h3>
+
+<ul>
+<li><a href="http://rtc.io/">rtc.io</a></li>
+<li><a href="https://www.npmjs.com/package/appearin-sdk">appear.in</a></li>
+</ul>
+
+<h2>
+<a id="services" class="anchor" href="#services" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Services</h2>
+
+<ul>
+<li>
+<a href="http://www.tokbox.com/">OpenTok</a> - acquired by Telefonica Digital</li>
+<li><a href="http://www.vline.com/">vLine</a></li>
+<li><a href="https://webrtchacks.com/vendor-directory/">WebRTC Developer Tool Vendor Directory</a></li>
+</ul>
+
+<h2>
+<a id="applications" class="anchor" href="#applications" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Applications</h2>
+
+<h3>
+<a id="getusermedia" class="anchor" href="#getusermedia" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>getUserMedia</h3>
+
+<ul>
+<li>
+<a href="http://idevelop.github.com/ascii-camera">ASCII camera</a> - getUserMedia + Canvas + ASCII conversion</li>
+<li><a href="http://lli.web.fh-koeln.de/mocowe">Movement tracking slide page controller</a></li>
+<li><a href="http://soundstep.com/blog/experiments/jsdetection/">Xylophone</a></li>
+<li>
+<a href="http://webcamtoy.com/">Webcam Toy Photobooth app</a> - Photobooth with filters, getUserMedia + WebGL</li>
+<li><a href="https://rawgithub.com/SenorBlanco/moggy/master/filterbooth.html">SVG filters</a></li>
+<li><a href="https://auduno.github.io/clmtrackr/face_mask.html">Face masking with WebGL</a></li>
+<li><a href="https://auduno.github.io/clmtrackr/examples/facedeform.html">Face deformation with WebGL</a></li>
+<li><a href="https://picshare.jooink.com/">Augmented Reality Photobooth</a></li>
+</ul>
+
+<h3>
+<a id="screen-capture" class="anchor" href="#screen-capture" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Screen capture</h3>
+
+<ul>
+<li><a href="https://github.com/niklasenbom/RecordingApp">Screen recording app</a></li>
+</ul>
+
+<h3>
+<a id="web-audio-integration" class="anchor" href="#web-audio-integration" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Web Audio integration</h3>
+
+<ul>
+<li><a href="http://soundtrap.com/">Music production</a></li>
+<li><a href="http://webaudiodemos.appspot.com/">Chris Wilson's input demos</a></li>
+<li><a href="http://lab.aerotwist.com/webgl/audio-room">Paul Lewis's gUM/WebGL demo</a></li>
+<li><a href="http://simpl.info/webrtcwebaudio">RTCPeerConnection integration</a></li>
+<li><a href="http://www.g200kg.com/teburin/">Theremin: getUserMedia + tracking + Web Audio</a></li>
+<li><a href="http://cabbibo.github.io/holly/">cabbibo holly</a></li>
+</ul>
+
+<h3>
+<a id="recording" class="anchor" href="#recording" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Recording</h3>
+
+<ul>
+<li><a href="https://simpl.info/mr">Record audio and video with the MediaRecorder API</a></li>
+<li><a href="https://github.com/GoogleChrome/voice-memos">Voice Memos app</a></li>
+<li><a href="http://webaudiodemos.appspot.com/AudioRecorder/index.html">Record and download without MediaRecorder</a></li>
+<li><a href="https://github.com/muaz-khan/WebRTC-Experiment/tree/master/RecordRTC">RecordRTC</a></li>
+</ul>
+
+<h3>
+<a id="chat" class="anchor" href="#chat" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Chat</h3>
+
+<ul>
+<li><a href="http://talky.io/">talky.io</a></li>
+<li><a href="http://appear.in/">appear.in</a></li>
+<li><a href="http://tawk.com/">tawk</a></li>
+<li><a href="http://hu.tt/">hu.tt</a></li>
+<li>
+<a href="http://blog.twelephone.com/">Twelephone</a> - chat with Twitter contacts.</li>
+<li><a href="http://browsermeeting.com/">browsermeeting</a></li>
+<li>
+<a href="http://codassium.com/">codassium</a> - job interview tool with live coding.</li>
+<li><a href="http://vmux.co/">vmux.co</a></li>
+<li><a href="http://vidtok.com/">vidtok</a></li>
+<li>
+<a href="http://www.voxeet.com/">voxeet</a> - high quality audio.</li>
+</ul>
+
+<h3>
+<a id="games" class="anchor" href="#games" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Games</h3>
+
+<ul>
+<li>
+<a href="https://protothon.com/blog/2012/mar/27/red-square-puzzle-group/">Puzzlible</a> - The first WebRTC game</li>
+<li>
+<a href="http://www.designweek.co.uk/news/magneticnorth-creates-who-am-i-game-for-google/3034813.article">Who Am I?</a> - second ever WebRTC game, no longer online</li>
+<li>
+<a href="http://cubeslam.com/">Cube Slam</a> - WebRTC + Web Audio + WebGL</li>
+<li><a href="http://www.shinydemos.com/facekat/">Face tracking</a></li>
+<li>
+<a href="https://hacks.mozilla.org/2013/03/webrtc-data-channels-for-great-multiplayer/">BananaBread</a> - RTCDataChannel + WebGL</li>
+</ul>
+
+<h3>
+<a id="telehealth" class="anchor" href="#telehealth" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Telehealth</h3>
+
+<ul>
+<li><a href="http://www.pulseitmagazine.com.au/index.php?option=com_content&amp;view=article&amp;id=1382:cystic-fibrosis-project-to-trial-webrtc-home-monitoring-and-shared-ehr&amp;catid=16:australian-ehealth&amp;Itemid=327">Regional Cystic Fibrosis Program</a></li>
+<li><a href="http://consultdirect.com.au/">consultdirect</a></li>
+</ul>
+
+<h3>
+<a id="phone" class="anchor" href="#phone" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Phone</h3>
+
+<ul>
+<li><a href="http://demos.zingaya.com/webrtc-pstn/">Zingaya</a></li>
+<li>
+<a href="http://tethr.tumblr.com/post/25513708436/tethr-and-tropo-in-the-google-i-o-sandbox">Tethr</a> - Disaster communications</li>
+</ul>
+
+<h3>
+<a id="file-sharing-and-p2p" class="anchor" href="#file-sharing-and-p2p" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>File sharing and P2P</h3>
+
+<ul>
+<li>
+<a href="http://sharefest.me/">Sharefest</a> - share file by uploading and sharing link.</li>
+<li>
+<a href="http://dropple.me/">dropple.me</a> - get a file by sending a link to a share page.</li>
+<li>
+<a href="https://github.com/PeerCDN">peerCDN</a> - P2P CDN.</li>
+<li>
+<a href="http://webtorrent.io/">WebTorrent</a> - BitTorrent over WebRTC.</li>
+<li><a href="http://cdn.peer5.com/pilots/kaltura/index.html">P2P video</a></li>
+<li><a href="http://webp2p.org/">webp2p</a></li>
+<li>
+<a href="https://peer5.com/">peer5</a> - add P2P file download to your web page.</li>
+</ul>
+
+<h3>
+<a id="others" class="anchor" href="#others" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Others</h3>
+
+<ul>
+<li><a href="https://plus.google.com/+JohannCampbell/posts/WEmRsCfuCEb">Internet-less WebRTC</a></li>
+<li><a href="http://research.edm.uhasselt.be/%7Ejori/page/index.php?n=Misc.QtWebRTC">Video call between Qt app and web app</a></li>
+</ul>
+
+<h3>
+<a id="alternatives-for-ie-and-safari" class="anchor" href="#alternatives-for-ie-and-safari" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Alternatives for IE and Safari</h3>
+
+<ul>
+<li><a href="https://temasys.atlassian.net/wiki/display/TWPP/WebRTC+Plugins">Temasys Plugin</a></li>
+</ul>
+
+<h2>
+<a id="web-audio" class="anchor" href="#web-audio" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Web Audio</h2>
+
+<h3>
+<a id="demos-and-samples-1" class="anchor" href="#demos-and-samples-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Demos and samples</h3>
+
+<ul>
+<li><a href="http://simpl.info/webaudio">simple webaudio demo</a></li>
+<li><a href="http://googlechrome.github.io/web-audio-samples/">webaudio samples</a></li>
+</ul>
+
+<h3>
+<a id="tutorials-1" class="anchor" href="#tutorials-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tutorials</h3>
+
+<ul>
+<li><a href="http://html5rocks.com/en/tutorials/webaudio/intro">Getting started with the Web Audio API</a></li>
+<li>
+<a href="http://updates.html5rocks.com/2012/09/Live-Web-Audio-Input-Enabled">Audio input</a> - with links to good, simple demos.</li>
+<li><a href="http://creativejs.com/resources/web-audio-api-getting-started">webaudio api guide</a></li>
+</ul>
+
+<h3>
+<a id="newsletters" class="anchor" href="#newsletters" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Newsletters</h3>
+
+<ul>
+<li><a href="http://blog.chrislowis.co.uk/waw.html">Web Audio Weekly</a></li>
+</ul>
+
+<h3>
+<a id="reference" class="anchor" href="#reference" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Reference</h3>
+
+<ul>
+<li><a href="http://webaudio.github.io/web-audio-api/">webaudio api</a></li>
+<li><a href="http://w3.org/TR/webaudio">w3c webaudio</a></li>
+</ul>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/OpenRTC-IO/awesome-webrtc">Awesome-webrtc</a> is maintained by <a href="https://github.com/OpenRTC-IO">OpenRTC-IO</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
