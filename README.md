@@ -61,7 +61,7 @@ A curated list of awesome WebRTC modules and resources. Inspired by [awesome-pyt
 * [WebRTC JavaScript code samples](http://github.com/webrtc/samples)
 * [Live demos of the samples](http://webrtc.github.io/samples)
 * [List of WebRTC demos and apps](https://docs.google.com/document/d/1hNK15_cNx3CpYsro2TKwEbdFxLv5WFe8djGHdFeZBks/edit) - incomplete and slightly out of date.
-* WebRTC video chat: [appr.tc](https://www.apprtc.net/), [source](http://github.com/webrtc/apprtc)
+* WebRTC video chat: [appr.tc](https://appr.tc), [source](http://github.com/webrtc/apprtc)
 * [Simple getUserMedia demo](https://simpl.info/gum)
 * [RTCPeerConnection demo](https://www.simpl.info/rtcpeerconnection) - RTCPeerConnection ‘on one page’, i.e. without signaling.
 * [Simple RTCDataChannel example](https://simpl.info/rtcdatachannel)
@@ -154,7 +154,7 @@ A curated list of awesome WebRTC modules and resources. Inspired by [awesome-pyt
 ## Services
 
 * [OpenTok](http://www.tokbox.com/) - acquired by Telefonica Digital
-* [vLine](http://www.vline.com/)
+* [vLine](https://github.com/vline)
 * [WebRTC Developer Tool Vendor Directory](https://webrtchacks.com/vendor-directory/)
 
 ## Applications
@@ -162,7 +162,6 @@ A curated list of awesome WebRTC modules and resources. Inspired by [awesome-pyt
 ### getUserMedia
 
 * [ASCII camera](http://idevelop.github.com/ascii-camera) - getUserMedia + Canvas + ASCII conversion
-* [Movement tracking slide page controller](http://lli.web.fh-koeln.de/mocowe)
 * [Xylophone](http://soundstep.com/blog/experiments/jsdetection/)
 * [Webcam Toy Photobooth app](http://webcamtoy.com/) - Photobooth with filters, getUserMedia + WebGL
 * [SVG filters](https://rawgithub.com/SenorBlanco/moggy/master/filterbooth.html)
@@ -205,10 +204,9 @@ A curated list of awesome WebRTC modules and resources. Inspired by [awesome-pyt
 
 ### Games
 
-* [Puzzlible](https://protothon.com/blog/2012/mar/27/red-square-puzzle-group/) - The first WebRTC game
 * [Who Am I?](http://www.designweek.co.uk/news/magneticnorth-creates-who-am-i-game-for-google/3034813.article) - second ever WebRTC game, no longer online
 * [Cube Slam](http://cubeslam.com/) - WebRTC + Web Audio + WebGL
-* [Face tracking](http://www.shinydemos.com/facekat/)
+* [Face tracking](https://github.com/operasoftware/shinydemos/tree/master/demos/facekat)
 * [BananaBread](https://hacks.mozilla.org/2013/03/webrtc-data-channels-for-great-multiplayer/) - RTCDataChannel + WebGL
 
 ### Telehealth
@@ -224,10 +222,8 @@ A curated list of awesome WebRTC modules and resources. Inspired by [awesome-pyt
 ### File sharing and P2P
 
 * [Sharefest](http://sharefest.me/) - share file by uploading and sharing link.
-* [dropple.me](http://dropple.me/) - get a file by sending a link to a share page.
 * [peerCDN](https://github.com/PeerCDN) - P2P CDN.
 * [WebTorrent](http://webtorrent.io/) - BitTorrent over WebRTC.
-* [P2P video](http://cdn.peer5.com/pilots/kaltura/index.html)
 * [webp2p](http://webp2p.org/)
 * [peer5](https://peer5.com/) - add P2P file download to your web page.
 
