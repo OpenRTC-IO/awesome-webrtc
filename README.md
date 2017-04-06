@@ -126,7 +126,7 @@ A curated list of awesome WebRTC modules and resources. Inspired by [awesome-pyt
 
 ### Peer-to-peer data
 
-* [PeerJS](http://peerjs.com/) - data channel abstraction.
+* [simple-peer](https://github.com/feross/simple-peer) - data channel abstraction.
 * [Sharefest](https://github.com/peer5/sharefest) - share files via data channels.
 * [Peer5 Downloader](https://www.peer5.com/downloader) - P2P file download.
 * ShareDrop: [web](https://www.sharedrop.io/), [source](https://github.com/cowbell/sharedrop) - file sharing between devices on the same network.
@@ -148,6 +148,13 @@ A curated list of awesome WebRTC modules and resources. Inspired by [awesome-pyt
 
 * [rtc.io](http://rtc.io/)
 * [appear.in](https://www.npmjs.com/package/appearin-sdk)
+
+### Signaling
+
+* [signalhub](https://github.com/mafintosh/signalhub) - verstaile subpub signaling server
+* [simple-signal](https://github.com/RationalCoding/simple-signal) - complete signaling library for [simple-peer](https://github.com/feross/simple-peer)
+* [turnserver](https://github.com/jitsi/turnserver) - open source TURN implementation
+* [stunserver](https://github.com/jselbie/stunserver) - open source STUN implementation
 
 ## Services
 
@@ -186,6 +193,7 @@ A curated list of awesome WebRTC modules and resources. Inspired by [awesome-pyt
 * [Voice Memos app](https://github.com/GoogleChrome/voice-memos)
 * [Record and download without MediaRecorder](http://webaudiodemos.appspot.com/AudioRecorder/index.html)
 * [RecordRTC](https://github.com/muaz-khan/WebRTC-Experiment/tree/master/RecordRTC)
+* [media-recorder-stream](https://github.com/mafintosh/media-recorder-stream)
 
 ### Chat
 
@@ -224,6 +232,7 @@ A curated list of awesome WebRTC modules and resources. Inspired by [awesome-pyt
 * [WebTorrent](http://webtorrent.io/) - BitTorrent over WebRTC.
 * [webp2p](http://webp2p.org/)
 * [peer5](https://peer5.com/) - add P2P file download to your web page.
+* [pea-server](https://github.com/recap/pea-server) - browser-based ftp server over WebRTC
 
 ### Others
 
@@ -255,3 +264,6 @@ A curated list of awesome WebRTC modules and resources. Inspired by [awesome-pyt
 
 * [webaudio api](http://webaudio.github.io/web-audio-api/)
 * [w3c webaudio](http://w3.org/TR/webaudio)
+
+### Related Lists
+* [awesome-peer-to-peer](https://github.com/kgryte/awesome-peer-to-peer)
