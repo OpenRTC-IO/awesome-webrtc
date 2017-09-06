@@ -130,6 +130,7 @@ A curated list of awesome WebRTC modules and resources. Inspired by [awesome-pyt
 * [Sharefest](https://github.com/peer5/sharefest) - share files via data channels.
 * [Peer5 Downloader](https://www.peer5.com/downloader) - P2P file download.
 * ShareDrop: [web](https://www.sharedrop.io/), [source](https://github.com/cowbell/sharedrop) - file sharing between devices on the same network.
+* [DragShare](https://www.dragshare.com/) - Drag and Drop P2P file sharing.
 
 ### VoIP/PSTN
 
