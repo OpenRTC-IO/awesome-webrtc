@@ -130,6 +130,7 @@ A curated list of awesome WebRTC modules and resources. Inspired by [awesome-pyt
 * [Sharefest](https://github.com/peer5/sharefest) - share files via data channels.
 * [Peer5 Downloader](https://www.peer5.com/downloader) - P2P file download.
 * ShareDrop: [web](https://www.sharedrop.io/), [source](https://github.com/cowbell/sharedrop) - file sharing between devices on the same network.
+* [Netflux](https://github.com/coast-team/netflux) - full mesh network of clients and/or servers.
 
 ### VoIP/PSTN
 
@@ -153,6 +154,7 @@ A curated list of awesome WebRTC modules and resources. Inspired by [awesome-pyt
 
 * [signalhub](https://github.com/mafintosh/signalhub) - verstaile subpub signaling server
 * [simple-signal](https://github.com/RationalCoding/simple-signal) - complete signaling library for [simple-peer](https://github.com/feross/simple-peer)
+* [sigver](https://github.com/coast-team/sigver) - signaling server for [Netflux](https://github.com/coast-team/netflux)
 * [turnserver](https://github.com/jitsi/turnserver) - open source TURN implementation
 * [stunserver](https://github.com/jselbie/stunserver) - open source STUN implementation
 
