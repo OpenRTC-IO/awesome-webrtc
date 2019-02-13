@@ -51,7 +51,6 @@ A curated list of awesome WebRTC modules and resources. Inspired by [awesome-pyt
 - [Capturing audio and video in HTML5](http://www.html5rocks.com/en/tutorials/getusermedia/intro/)
 - [Excellent series of articles by Louis Stowasser and Robert Nyman](https://hacks.mozilla.org/category/webrtc/)
 - [Justin Uberti at Google I/O 2012](https://www.youtube.com/watch?v=E8C8ouiXHHk)
-- [Cullen Jennings video: HTML5 WebRTC](http://vimeo.com/47682405)
 - [WebRTC Fundamentals](http://bit.ly/learnwebrtc) - online course.
 
 ## Demos and samples
@@ -152,7 +151,6 @@ A curated list of awesome WebRTC modules and resources. Inspired by [awesome-pyt
 ### Signaling
 
 - [signalhub](https://github.com/mafintosh/signalhub) - verstaile subpub signaling server
-- [simple-signal](https://github.com/RationalCoding/simple-signal) - complete signaling library for [simple-peer](https://github.com/feross/simple-peer)
 - [turnserver](https://github.com/jitsi/turnserver) - open source TURN implementation
 - [stunserver](https://github.com/jselbie/stunserver) - open source STUN implementation
 
@@ -202,10 +200,7 @@ A curated list of awesome WebRTC modules and resources. Inspired by [awesome-pyt
 - [tawk](http://tawk.com/)
 - [hu.tt](http://hu.tt/)
 - [Twelephone](http://blog.twelephone.com/) - chat with Twitter contacts.
-- [browsermeeting](http://browsermeeting.com/)
 - [codassium](http://codassium.com/) - job interview tool with live coding.
-- [vmux.co](http://vmux.co/)
-- [vidtok](http://vidtok.com/)
 - [voxeet](http://www.voxeet.com/) - high quality audio.
 - [chateer](https://chateer.tk) - textual P2P chat over WebRTC.
 
@@ -219,11 +214,9 @@ A curated list of awesome WebRTC modules and resources. Inspired by [awesome-pyt
 ### Telehealth
 
 - [Regional Cystic Fibrosis Program](http://www.pulseitmagazine.com.au/index.php?option=com_content&view=article&id=1382:cystic-fibrosis-project-to-trial-webrtc-home-monitoring-and-shared-ehr&catid=16:australian-ehealth&Itemid=327)
-- [consultdirect](http://consultdirect.com.au/)
 
 ### Phone
 
-- [Zingaya](http://demos.zingaya.com/webrtc-pstn/)
 - [Tethr](http://tethr.tumblr.com/post/25513708436/tethr-and-tropo-in-the-google-i-o-sandbox) - Disaster communications
 
 ### File sharing and P2P
@@ -231,7 +224,6 @@ A curated list of awesome WebRTC modules and resources. Inspired by [awesome-pyt
 - [Sharefest](http://sharefest.me/) - share file by uploading and sharing link.
 - [peerCDN](https://github.com/PeerCDN) - P2P CDN.
 - [WebTorrent](http://webtorrent.io/) - BitTorrent over WebRTC.
-- [webp2p](http://webp2p.org/)
 - [peer5](https://peer5.com/) - add P2P file download to your web page.
 - [pea-server](https://github.com/recap/pea-server) - browser-based ftp server over WebRTC
 
@@ -249,7 +241,6 @@ A curated list of awesome WebRTC modules and resources. Inspired by [awesome-pyt
 ### Demos and samples
 
 - [simple webaudio demo](http://simpl.info/webaudio)
-- [webaudio samples](http://googlechrome.github.io/web-audio-samples/)
 
 ### Tutorials
 
