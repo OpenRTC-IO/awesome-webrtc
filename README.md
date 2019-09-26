@@ -98,6 +98,7 @@ A curated list of awesome WebRTC modules and resources. Inspired by [awesome-pyt
 * [Build scripts from pristineio](https://github.com/pristineio/webrtc-build-scripts) - repo with links to how-to guides for Android and iOS
 * [Native API documentation](http://www.webrtc.org/native-code/native-apis)
 * [WebRTC shim for WKWebView](https://github.com/common-tater/wkwebview-webrtc-shim)
+* [WebRTC DataChannels standalone implementation](https://github.com/paullouisageneau/libdatachannel)
 
 ## Discussion, blogs and articles
 
