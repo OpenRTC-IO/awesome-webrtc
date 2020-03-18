@@ -267,3 +267,4 @@ A curated list of awesome WebRTC modules and resources. Inspired by [awesome-pyt
 
 ### Related Lists
 * [awesome-peer-to-peer](https://github.com/kgryte/awesome-peer-to-peer)
+* [awesome-rtc](https://github.com/rtckit/awesome-rtc) - Curated list of Real Time Communications resources.
